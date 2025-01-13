@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import '../app.css';
 	let { children } = $props();
 
@@ -7,10 +8,10 @@
 <nav class="bg-gray-800 text-gray-100 p-4">
 	<ul class="flex justify-between">
 		<li>
-			<a href="/">Home</a>
+			<a href="{base}/">Home</a>
 		</li>
 		<li>
-			<a href="/about">About</a>
+			<a href="{base}/about">About</a>
 		</li>
 	</ul>
 </nav>
