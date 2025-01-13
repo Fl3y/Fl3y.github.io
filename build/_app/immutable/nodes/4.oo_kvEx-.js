@@ -1,0 +1,1 @@
+import{a,t as o}from"../chunks/disclose-version.BNVCAXZh.js";var p=o('<h1 class="text-gray-400 text-7xl uppercase font-bold underline text-center">About</h1>');function s(t,r){var e=p();a(t,e)}export{s as component};
