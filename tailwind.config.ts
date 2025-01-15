@@ -7,7 +7,14 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		fontFamily:{
+			sans: ["'Audiowide'", 'serif'],
+		},
+		extend: {
+			screens:{
+				'3xl': '1930px'
+			}
+		}
 	},
 
 	plugins: [typography, forms, containerQueries]

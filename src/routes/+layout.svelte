@@ -5,8 +5,8 @@
 
 </script>
 
-<nav class="bg-gray-800 text-gray-100 p-4">
-	<ul class="flex justify-between">
+<nav class="bg-gray-800 text-gray-100 sm:text-2xl  xl:text-6xl">
+	<ul class="flex justify-between px-2">
 		<li>
 			<a href="{base}/">Home</a>
 		</li>
@@ -16,4 +16,8 @@
 	</ul>
 </nav>
 
-{@render children()}
+<main class="p-12 flex content-center ">
+	{@render children()}
+</main>
+
+
