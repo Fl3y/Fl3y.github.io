@@ -20,7 +20,7 @@
 
     <p class="text-gray-400 font-bold sm:text-xl xl:text-3xl 3xl:text-5xl">
         Age: 21 <br>
-        Birthday: 24.03.2003 <br>
+        Birthday: 24.08.2003 <br>
         Nationality: German <br>
         Occupation: Student <br>
         Hobbies: Programming, Gaming, Music, Content Creation <br>
